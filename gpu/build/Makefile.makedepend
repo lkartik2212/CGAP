@@ -1,0 +1,167 @@
+# DO NOT DELETE
+
+build/XML_Parse.o: XML_Parse.h /usr/include/stdio.h /usr/include/string.h
+build/XML_Parse.o: xmlParser.h /usr/include/stdlib.h /usr/include/wchar.h
+build/array.o: array.h basic_components.h XML_Parse.h /usr/include/stdio.h
+build/array.o: /usr/include/string.h xmlParser.h /usr/include/stdlib.h
+build/array.o: /usr/include/wchar.h cacti/parameter.h cacti/area.h
+build/array.o: cacti/cacti_interface.h cacti/const.h /usr/include/stdint.h
+build/array.o: /usr/include/math.h cacti/basic_circuit.h cacti/io.h
+build/array.o: cacti/cacti_interface.h cacti/component.h cacti/parameter.h
+build/array.o: cacti/const.h /usr/include/assert.h /usr/include/features.h
+build/array.o: /usr/include/features-time64.h /usr/include/stdc-predef.h
+build/array.o: cacti/area.h globalvar.h
+build/basic_components.o: basic_components.h XML_Parse.h /usr/include/stdio.h
+build/basic_components.o: /usr/include/string.h xmlParser.h
+build/basic_components.o: /usr/include/stdlib.h /usr/include/wchar.h
+build/basic_components.o: cacti/parameter.h cacti/area.h
+build/basic_components.o: cacti/cacti_interface.h cacti/const.h
+build/basic_components.o: /usr/include/stdint.h /usr/include/math.h
+build/basic_components.o: cacti/basic_circuit.h cacti/io.h
+build/basic_components.o: /usr/include/assert.h /usr/include/features.h
+build/basic_components.o: /usr/include/features-time64.h
+build/basic_components.o: /usr/include/stdc-predef.h
+build/core.o: core.h XML_Parse.h /usr/include/stdio.h /usr/include/string.h
+build/core.o: xmlParser.h /usr/include/stdlib.h /usr/include/wchar.h array.h
+build/core.o: basic_components.h cacti/parameter.h cacti/area.h
+build/core.o: cacti/cacti_interface.h cacti/const.h /usr/include/stdint.h
+build/core.o: /usr/include/math.h cacti/basic_circuit.h cacti/io.h
+build/core.o: cacti/cacti_interface.h cacti/component.h cacti/parameter.h
+build/core.o: cacti/const.h cacti/arbiter.h /usr/include/assert.h
+build/core.o: /usr/include/features.h /usr/include/features-time64.h
+build/core.o: /usr/include/stdc-predef.h cacti/component.h cacti/mat.h
+build/core.o: cacti/decoder.h cacti/wire.h cacti/subarray.h cacti/crossbar.h
+build/core.o: interconnect.h cacti/basic_circuit.h cacti/subarray.h
+build/core.o: cacti/wire.h logic.h arch_const.h cacti/decoder.h noc.h
+build/core.o: cacti/router.h cacti/crossbar.h cacti/arbiter.h sharedcache.h
+build/core.o: cacti/area.h
+build/interconnect.o: interconnect.h /usr/include/assert.h
+build/interconnect.o: /usr/include/features.h /usr/include/features-time64.h
+build/interconnect.o: /usr/include/stdc-predef.h basic_components.h
+build/interconnect.o: XML_Parse.h /usr/include/stdio.h /usr/include/string.h
+build/interconnect.o: xmlParser.h /usr/include/stdlib.h /usr/include/wchar.h
+build/interconnect.o: cacti/parameter.h cacti/area.h cacti/cacti_interface.h
+build/interconnect.o: cacti/const.h /usr/include/stdint.h /usr/include/math.h
+build/interconnect.o: cacti/basic_circuit.h cacti/io.h cacti/basic_circuit.h
+build/interconnect.o: cacti/cacti_interface.h cacti/component.h
+build/interconnect.o: cacti/parameter.h cacti/subarray.h cacti/wire.h
+build/interconnect.o: globalvar.h cacti/wire.h cacti/component.h
+build/iocontrollers.o: iocontrollers.h XML_Parse.h /usr/include/stdio.h
+build/iocontrollers.o: /usr/include/string.h xmlParser.h
+build/iocontrollers.o: /usr/include/stdlib.h /usr/include/wchar.h
+build/iocontrollers.o: cacti/parameter.h cacti/area.h cacti/cacti_interface.h
+build/iocontrollers.o: cacti/const.h /usr/include/stdint.h
+build/iocontrollers.o: /usr/include/math.h cacti/basic_circuit.h cacti/io.h
+build/iocontrollers.o: array.h basic_components.h cacti/cacti_interface.h
+build/iocontrollers.o: cacti/component.h cacti/parameter.h cacti/const.h
+build/iocontrollers.o: /usr/include/assert.h /usr/include/features.h
+build/iocontrollers.o: /usr/include/features-time64.h
+build/iocontrollers.o: /usr/include/stdc-predef.h cacti/basic_circuit.h
+build/iocontrollers.o: logic.h arch_const.h cacti/decoder.h
+build/logic.o: logic.h XML_Parse.h /usr/include/stdio.h /usr/include/string.h
+build/logic.o: xmlParser.h /usr/include/stdlib.h /usr/include/wchar.h
+build/logic.o: arch_const.h basic_components.h cacti/parameter.h cacti/area.h
+build/logic.o: cacti/cacti_interface.h cacti/const.h /usr/include/stdint.h
+build/logic.o: /usr/include/math.h cacti/basic_circuit.h cacti/io.h
+build/logic.o: cacti/basic_circuit.h cacti/cacti_interface.h
+build/logic.o: cacti/component.h cacti/parameter.h cacti/const.h
+build/logic.o: cacti/decoder.h
+build/main.o: XML_Parse.h /usr/include/stdio.h /usr/include/string.h
+build/main.o: xmlParser.h /usr/include/stdlib.h /usr/include/wchar.h
+build/main.o: globalvar.h cacti/io.h cacti/const.h /usr/include/stdint.h
+build/main.o: /usr/include/math.h cacti/cacti_interface.h processor.h
+build/main.o: visualizer.h /usr/include/zlib.h /usr/include/zconf.h
+build/main.o: /usr/include/limits.h /usr/include/unistd.h
+build/main.o: /usr/include/features.h /usr/include/features-time64.h
+build/main.o: /usr/include/stdc-predef.h array.h basic_components.h
+build/main.o: cacti/parameter.h cacti/area.h cacti/basic_circuit.h
+build/main.o: cacti/cacti_interface.h cacti/component.h cacti/parameter.h
+build/main.o: cacti/const.h cacti/arbiter.h /usr/include/assert.h
+build/main.o: cacti/component.h cacti/mat.h cacti/decoder.h cacti/wire.h
+build/main.o: cacti/subarray.h cacti/area.h cacti/decoder.h cacti/router.h
+build/main.o: cacti/crossbar.h cacti/arbiter.h core.h cacti/crossbar.h
+build/main.o: interconnect.h cacti/basic_circuit.h cacti/subarray.h
+build/main.o: cacti/wire.h logic.h arch_const.h noc.h sharedcache.h
+build/main.o: iocontrollers.h memoryctrl.h version.h
+build/memoryctrl.o: cacti/io.h cacti/const.h /usr/include/stdint.h
+build/memoryctrl.o: /usr/include/stdlib.h /usr/include/string.h
+build/memoryctrl.o: /usr/include/stdio.h /usr/include/math.h
+build/memoryctrl.o: cacti/cacti_interface.h cacti/parameter.h logic.h
+build/memoryctrl.o: XML_Parse.h xmlParser.h /usr/include/wchar.h arch_const.h
+build/memoryctrl.o: basic_components.h cacti/parameter.h cacti/area.h
+build/memoryctrl.o: cacti/basic_circuit.h cacti/basic_circuit.h
+build/memoryctrl.o: cacti/cacti_interface.h cacti/component.h cacti/const.h
+build/memoryctrl.o: cacti/decoder.h /usr/include/assert.h
+build/memoryctrl.o: /usr/include/features.h /usr/include/features-time64.h
+build/memoryctrl.o: /usr/include/stdc-predef.h memoryctrl.h array.h
+build/noc.o: noc.h XML_Parse.h /usr/include/stdio.h /usr/include/string.h
+build/noc.o: xmlParser.h /usr/include/stdlib.h /usr/include/wchar.h array.h
+build/noc.o: basic_components.h cacti/parameter.h cacti/area.h
+build/noc.o: cacti/cacti_interface.h cacti/const.h /usr/include/stdint.h
+build/noc.o: /usr/include/math.h cacti/basic_circuit.h cacti/io.h
+build/noc.o: cacti/cacti_interface.h cacti/component.h cacti/parameter.h
+build/noc.o: cacti/const.h cacti/router.h /usr/include/assert.h
+build/noc.o: /usr/include/features.h /usr/include/features-time64.h
+build/noc.o: /usr/include/stdc-predef.h cacti/component.h cacti/mat.h
+build/noc.o: cacti/decoder.h cacti/wire.h cacti/subarray.h cacti/crossbar.h
+build/noc.o: cacti/arbiter.h interconnect.h cacti/basic_circuit.h
+build/noc.o: cacti/subarray.h cacti/wire.h logic.h arch_const.h
+build/noc.o: cacti/decoder.h
+build/processor.o: processor.h visualizer.h /usr/include/stdio.h
+build/processor.o: /usr/include/zlib.h /usr/include/zconf.h
+build/processor.o: /usr/include/limits.h /usr/include/unistd.h
+build/processor.o: /usr/include/features.h /usr/include/features-time64.h
+build/processor.o: /usr/include/stdc-predef.h XML_Parse.h
+build/processor.o: /usr/include/string.h xmlParser.h /usr/include/stdlib.h
+build/processor.o: /usr/include/wchar.h array.h basic_components.h
+build/processor.o: cacti/parameter.h cacti/area.h cacti/cacti_interface.h
+build/processor.o: cacti/const.h /usr/include/stdint.h /usr/include/math.h
+build/processor.o: cacti/basic_circuit.h cacti/io.h cacti/cacti_interface.h
+build/processor.o: cacti/component.h cacti/parameter.h cacti/const.h
+build/processor.o: cacti/arbiter.h /usr/include/assert.h cacti/component.h
+build/processor.o: cacti/mat.h cacti/decoder.h cacti/wire.h cacti/subarray.h
+build/processor.o: cacti/area.h cacti/decoder.h cacti/router.h
+build/processor.o: cacti/crossbar.h cacti/arbiter.h core.h cacti/crossbar.h
+build/processor.o: interconnect.h cacti/basic_circuit.h cacti/subarray.h
+build/processor.o: cacti/wire.h logic.h arch_const.h noc.h sharedcache.h
+build/processor.o: iocontrollers.h memoryctrl.h version.h
+build/sharedcache.o: sharedcache.h XML_Parse.h /usr/include/stdio.h
+build/sharedcache.o: /usr/include/string.h xmlParser.h /usr/include/stdlib.h
+build/sharedcache.o: /usr/include/wchar.h array.h basic_components.h
+build/sharedcache.o: cacti/parameter.h cacti/area.h cacti/cacti_interface.h
+build/sharedcache.o: cacti/const.h /usr/include/stdint.h /usr/include/math.h
+build/sharedcache.o: cacti/basic_circuit.h cacti/io.h cacti/cacti_interface.h
+build/sharedcache.o: cacti/component.h cacti/parameter.h cacti/const.h
+build/sharedcache.o: cacti/area.h logic.h arch_const.h cacti/basic_circuit.h
+build/sharedcache.o: cacti/decoder.h /usr/include/assert.h
+build/sharedcache.o: /usr/include/features.h /usr/include/features-time64.h
+build/sharedcache.o: /usr/include/stdc-predef.h cacti/arbiter.h
+build/sharedcache.o: cacti/component.h cacti/mat.h cacti/decoder.h
+build/sharedcache.o: cacti/wire.h cacti/subarray.h
+build/xmlParser.o: xmlParser.h /usr/include/stdlib.h /usr/include/wchar.h
+build/xmlParser.o: /usr/include/assert.h /usr/include/features.h
+build/xmlParser.o: /usr/include/features-time64.h /usr/include/stdc-predef.h
+build/xmlParser.o: /usr/include/memory.h /usr/include/string.h
+build/xmlParser.o: /usr/include/stdio.h
+build/gpgpu_sim_wrapper.o: gpgpu_sim_wrapper.h /usr/include/assert.h
+build/gpgpu_sim_wrapper.o: /usr/include/features.h
+build/gpgpu_sim_wrapper.o: /usr/include/features-time64.h
+build/gpgpu_sim_wrapper.o: /usr/include/stdc-predef.h /usr/include/stdio.h
+build/gpgpu_sim_wrapper.o: /usr/include/stdlib.h /usr/include/string.h
+build/gpgpu_sim_wrapper.o: /usr/include/zlib.h /usr/include/zconf.h
+build/gpgpu_sim_wrapper.o: /usr/include/limits.h /usr/include/unistd.h
+build/gpgpu_sim_wrapper.o: processor.h visualizer.h XML_Parse.h xmlParser.h
+build/gpgpu_sim_wrapper.o: /usr/include/wchar.h array.h basic_components.h
+build/gpgpu_sim_wrapper.o: cacti/parameter.h cacti/area.h
+build/gpgpu_sim_wrapper.o: cacti/cacti_interface.h cacti/const.h
+build/gpgpu_sim_wrapper.o: /usr/include/stdint.h /usr/include/math.h
+build/gpgpu_sim_wrapper.o: cacti/basic_circuit.h cacti/io.h
+build/gpgpu_sim_wrapper.o: cacti/cacti_interface.h cacti/component.h
+build/gpgpu_sim_wrapper.o: cacti/parameter.h cacti/const.h cacti/arbiter.h
+build/gpgpu_sim_wrapper.o: cacti/component.h cacti/mat.h cacti/decoder.h
+build/gpgpu_sim_wrapper.o: cacti/wire.h cacti/subarray.h cacti/area.h
+build/gpgpu_sim_wrapper.o: cacti/decoder.h cacti/router.h cacti/crossbar.h
+build/gpgpu_sim_wrapper.o: cacti/arbiter.h core.h cacti/crossbar.h
+build/gpgpu_sim_wrapper.o: interconnect.h cacti/basic_circuit.h
+build/gpgpu_sim_wrapper.o: cacti/subarray.h cacti/wire.h logic.h arch_const.h
+build/gpgpu_sim_wrapper.o: noc.h sharedcache.h iocontrollers.h memoryctrl.h

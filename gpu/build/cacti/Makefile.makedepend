@@ -1,0 +1,156 @@
+# DO NOT DELETE
+
+../build/cacti/area.o: area.h cacti_interface.h const.h /usr/include/stdint.h
+../build/cacti/area.o: /usr/include/stdlib.h /usr/include/string.h
+../build/cacti/area.o: /usr/include/stdio.h /usr/include/math.h
+../build/cacti/area.o: basic_circuit.h component.h parameter.h io.h decoder.h
+../build/cacti/area.o: /usr/include/assert.h /usr/include/features.h
+../build/cacti/area.o: /usr/include/features-time64.h
+../build/cacti/area.o: /usr/include/stdc-predef.h
+../build/cacti/bank.o: bank.h component.h parameter.h area.h
+../build/cacti/bank.o: cacti_interface.h const.h /usr/include/stdint.h
+../build/cacti/bank.o: /usr/include/stdlib.h /usr/include/string.h
+../build/cacti/bank.o: /usr/include/stdio.h /usr/include/math.h
+../build/cacti/bank.o: basic_circuit.h io.h decoder.h mat.h wire.h
+../build/cacti/bank.o: /usr/include/assert.h /usr/include/features.h
+../build/cacti/bank.o: /usr/include/features-time64.h
+../build/cacti/bank.o: /usr/include/stdc-predef.h subarray.h htree2.h
+../build/cacti/mat.o: mat.h component.h parameter.h area.h cacti_interface.h
+../build/cacti/mat.o: const.h /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/mat.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/mat.o: /usr/include/math.h basic_circuit.h io.h decoder.h
+../build/cacti/mat.o: wire.h /usr/include/assert.h /usr/include/features.h
+../build/cacti/mat.o: /usr/include/features-time64.h
+../build/cacti/mat.o: /usr/include/stdc-predef.h subarray.h
+../build/cacti/main.o: io.h const.h /usr/include/stdint.h
+../build/cacti/main.o: /usr/include/stdlib.h /usr/include/string.h
+../build/cacti/main.o: /usr/include/stdio.h /usr/include/math.h
+../build/cacti/main.o: cacti_interface.h
+../build/cacti/Ucache.o: /usr/include/time.h /usr/include/features.h
+../build/cacti/Ucache.o: /usr/include/features-time64.h
+../build/cacti/Ucache.o: /usr/include/stdc-predef.h /usr/include/math.h
+../build/cacti/Ucache.o: area.h cacti_interface.h const.h
+../build/cacti/Ucache.o: /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/Ucache.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/Ucache.o: basic_circuit.h bank.h component.h parameter.h io.h
+../build/cacti/Ucache.o: decoder.h mat.h wire.h /usr/include/assert.h
+../build/cacti/Ucache.o: subarray.h htree2.h Ucache.h router.h crossbar.h
+../build/cacti/Ucache.o: arbiter.h nuca.h uca.h /usr/include/pthread.h
+../build/cacti/Ucache.o: /usr/include/sched.h
+../build/cacti/io.o: io.h const.h /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/io.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/io.o: /usr/include/math.h cacti_interface.h area.h
+../build/cacti/io.o: basic_circuit.h parameter.h Ucache.h router.h
+../build/cacti/io.o: /usr/include/assert.h /usr/include/features.h
+../build/cacti/io.o: /usr/include/features-time64.h
+../build/cacti/io.o: /usr/include/stdc-predef.h component.h mat.h decoder.h
+../build/cacti/io.o: wire.h subarray.h crossbar.h arbiter.h nuca.h
+../build/cacti/technology.o: basic_circuit.h const.h /usr/include/stdint.h
+../build/cacti/technology.o: /usr/include/stdlib.h /usr/include/string.h
+../build/cacti/technology.o: /usr/include/stdio.h /usr/include/math.h
+../build/cacti/technology.o: cacti_interface.h parameter.h area.h io.h
+../build/cacti/basic_circuit.o: basic_circuit.h const.h /usr/include/stdint.h
+../build/cacti/basic_circuit.o: /usr/include/stdlib.h /usr/include/string.h
+../build/cacti/basic_circuit.o: /usr/include/stdio.h /usr/include/math.h
+../build/cacti/basic_circuit.o: cacti_interface.h parameter.h area.h io.h
+../build/cacti/basic_circuit.o: /usr/include/assert.h /usr/include/features.h
+../build/cacti/basic_circuit.o: /usr/include/features-time64.h
+../build/cacti/basic_circuit.o: /usr/include/stdc-predef.h
+../build/cacti/parameter.o: parameter.h area.h cacti_interface.h const.h
+../build/cacti/parameter.o: /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/parameter.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/parameter.o: /usr/include/math.h basic_circuit.h io.h
+../build/cacti/decoder.o: area.h cacti_interface.h const.h
+../build/cacti/decoder.o: /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/decoder.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/decoder.o: /usr/include/math.h basic_circuit.h decoder.h
+../build/cacti/decoder.o: component.h parameter.h io.h /usr/include/assert.h
+../build/cacti/decoder.o: /usr/include/features.h
+../build/cacti/decoder.o: /usr/include/features-time64.h
+../build/cacti/decoder.o: /usr/include/stdc-predef.h
+../build/cacti/component.o: /usr/include/assert.h /usr/include/features.h
+../build/cacti/component.o: /usr/include/features-time64.h
+../build/cacti/component.o: /usr/include/stdc-predef.h /usr/include/math.h
+../build/cacti/component.o: bank.h component.h parameter.h area.h
+../build/cacti/component.o: cacti_interface.h const.h /usr/include/stdint.h
+../build/cacti/component.o: /usr/include/stdlib.h /usr/include/string.h
+../build/cacti/component.o: /usr/include/stdio.h basic_circuit.h io.h
+../build/cacti/component.o: decoder.h mat.h wire.h subarray.h htree2.h
+../build/cacti/uca.o: /usr/include/math.h uca.h area.h cacti_interface.h
+../build/cacti/uca.o: const.h /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/uca.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/uca.o: basic_circuit.h bank.h component.h parameter.h io.h
+../build/cacti/uca.o: decoder.h mat.h wire.h /usr/include/assert.h
+../build/cacti/uca.o: /usr/include/features.h /usr/include/features-time64.h
+../build/cacti/uca.o: /usr/include/stdc-predef.h subarray.h htree2.h
+../build/cacti/subarray.o: /usr/include/math.h /usr/include/assert.h
+../build/cacti/subarray.o: /usr/include/features.h
+../build/cacti/subarray.o: /usr/include/features-time64.h
+../build/cacti/subarray.o: /usr/include/stdc-predef.h subarray.h area.h
+../build/cacti/subarray.o: cacti_interface.h const.h /usr/include/stdint.h
+../build/cacti/subarray.o: /usr/include/stdlib.h /usr/include/string.h
+../build/cacti/subarray.o: /usr/include/stdio.h basic_circuit.h component.h
+../build/cacti/subarray.o: parameter.h io.h
+../build/cacti/wire.o: wire.h basic_circuit.h const.h /usr/include/stdint.h
+../build/cacti/wire.o: /usr/include/stdlib.h /usr/include/string.h
+../build/cacti/wire.o: /usr/include/stdio.h /usr/include/math.h
+../build/cacti/wire.o: cacti_interface.h component.h parameter.h area.h io.h
+../build/cacti/wire.o: /usr/include/assert.h /usr/include/features.h
+../build/cacti/wire.o: /usr/include/features-time64.h
+../build/cacti/wire.o: /usr/include/stdc-predef.h
+../build/cacti/htree2.o: htree2.h basic_circuit.h const.h
+../build/cacti/htree2.o: /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/htree2.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/htree2.o: /usr/include/math.h cacti_interface.h component.h
+../build/cacti/htree2.o: parameter.h area.h io.h /usr/include/assert.h
+../build/cacti/htree2.o: /usr/include/features.h
+../build/cacti/htree2.o: /usr/include/features-time64.h
+../build/cacti/htree2.o: /usr/include/stdc-predef.h subarray.h wire.h
+../build/cacti/cacti_interface.o: /usr/include/time.h /usr/include/features.h
+../build/cacti/cacti_interface.o: /usr/include/features-time64.h
+../build/cacti/cacti_interface.o: /usr/include/stdc-predef.h
+../build/cacti/cacti_interface.o: /usr/include/math.h area.h
+../build/cacti/cacti_interface.o: cacti_interface.h const.h
+../build/cacti/cacti_interface.o: /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/cacti_interface.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/cacti_interface.o: basic_circuit.h component.h parameter.h
+../build/cacti/cacti_interface.o: io.h Ucache.h router.h
+../build/cacti/cacti_interface.o: /usr/include/assert.h mat.h decoder.h
+../build/cacti/cacti_interface.o: wire.h subarray.h crossbar.h arbiter.h
+../build/cacti/cacti_interface.o: nuca.h /usr/include/pthread.h
+../build/cacti/cacti_interface.o: /usr/include/sched.h
+../build/cacti/router.o: router.h /usr/include/assert.h
+../build/cacti/router.o: /usr/include/features.h
+../build/cacti/router.o: /usr/include/features-time64.h
+../build/cacti/router.o: /usr/include/stdc-predef.h basic_circuit.h const.h
+../build/cacti/router.o: /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/router.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/router.o: /usr/include/math.h cacti_interface.h component.h
+../build/cacti/router.o: parameter.h area.h io.h mat.h decoder.h wire.h
+../build/cacti/router.o: subarray.h crossbar.h arbiter.h
+../build/cacti/nuca.o: nuca.h basic_circuit.h const.h /usr/include/stdint.h
+../build/cacti/nuca.o: /usr/include/stdlib.h /usr/include/string.h
+../build/cacti/nuca.o: /usr/include/stdio.h /usr/include/math.h
+../build/cacti/nuca.o: cacti_interface.h component.h parameter.h area.h io.h
+../build/cacti/nuca.o: /usr/include/assert.h /usr/include/features.h
+../build/cacti/nuca.o: /usr/include/features-time64.h
+../build/cacti/nuca.o: /usr/include/stdc-predef.h wire.h mat.h decoder.h
+../build/cacti/nuca.o: subarray.h router.h crossbar.h arbiter.h Ucache.h
+../build/cacti/crossbar.o: crossbar.h /usr/include/assert.h
+../build/cacti/crossbar.o: /usr/include/features.h
+../build/cacti/crossbar.o: /usr/include/features-time64.h
+../build/cacti/crossbar.o: /usr/include/stdc-predef.h basic_circuit.h const.h
+../build/cacti/crossbar.o: /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/crossbar.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/crossbar.o: /usr/include/math.h cacti_interface.h component.h
+../build/cacti/crossbar.o: parameter.h area.h io.h mat.h decoder.h wire.h
+../build/cacti/crossbar.o: subarray.h
+../build/cacti/arbiter.o: arbiter.h /usr/include/assert.h
+../build/cacti/arbiter.o: /usr/include/features.h
+../build/cacti/arbiter.o: /usr/include/features-time64.h
+../build/cacti/arbiter.o: /usr/include/stdc-predef.h basic_circuit.h const.h
+../build/cacti/arbiter.o: /usr/include/stdint.h /usr/include/stdlib.h
+../build/cacti/arbiter.o: /usr/include/string.h /usr/include/stdio.h
+../build/cacti/arbiter.o: /usr/include/math.h cacti_interface.h component.h
+../build/cacti/arbiter.o: parameter.h area.h io.h mat.h decoder.h wire.h
+../build/cacti/arbiter.o: subarray.h
